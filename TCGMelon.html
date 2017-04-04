@@ -1,105 +1,138 @@
 <!-- This is the cleaner version of tcg melon.html. All of the tags line up, so your can see where things open and close. -->
-
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Bahiana|Port+Lligat+Slab|Righteous" rel="stylesheet">
-	<link rel="shortcut icon" type="text/css" href="watermelon2.ico" />
-	<link rel="stylesheet" type="text/css" href="documentStyleSheet.css">
 
-	<titleT>CG Melon</title>
+  <link href="https://fonts.googleapis.com/css?family=Bahiana|Port+Lligat+Slab|Righteous" rel="stylesheet">
+<link rel="shortcut icon" type="text/css" href="watermelon2.ico" />
+ <link rel="stylesheet" href="blueberry.css">
+  <link rel="stylesheet" type="text/css" href="documentStyleSheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="jquery.blueberry.js"></script>
+
+<script>
+$(window).load(function() {
+  $('.blueberry').blueberry();
+});
+</script>
+
+  <title>TCG Melon</title>
 </head>
 <body>
+        <div id ="navbar">
+<ul>
+  <li id="toplogo"><img src="https://image.ibb.co/mCj23v/imageedit_2_7512117356.png" width="60px" height="40px"></li>
+  <li><p>login</p></li>
+  <li id="sign"><p>sign up</p></li>
+</ul>
+</div>
 
-	<div class ="wholething">
-		<div class="logo">
-			<h1>TCG-Melon</h1>
+
+  <div class ="wholething">
+
+    <div class="logo">
+      <h1>TCG-Melon</h1>
  
-  			<li><img src="https://preview.ibb.co/eekRTv/watermelon2.png" height="100px"></li>
-  			<li>
-  				<form class="bar">
-  					<input type="text" id="st-search-input" class="st-search-input search-field" placeholder="Search Decklists" />
-    					<button class="myButton" type="submit">Submit</button>
- 				</form>
- 			</li>
-  		</div>
+        <li> <img src="https://preview.ibb.co/eekRTv/watermelon2.png" height="100px"> </li>
+        <li>
+          <form class="bar">
+            <input type="text" id="st-search-input" class="st-search-input search-field" placeholder="Search Decklists" />
+              <button class="myButton" type="submit">Submit</button>
+        </form>
+      </li>
+      </div>
 
-  	</div>
-	<div class="koki">
-		<ul>
-  			<li id="op"><a href="TCGMelon.html">Home</a></li>
-  			<li id="op"><a href="BuildADecklist.html">Build a Decklist</a></li>
-  			<li id="op"><a href="Decks.html">Decks</a></li>
-  			<li id="op"class="current"><a href="Community.html">Community</a></li>
-  			<li id="op"><a href="Awards.html">Awards</a></li>
-  			<li id="op"><a href="ContactUs.html">Contact us</a></li>
-		</ul>
-	</div>
+    </div>
+  <div class="koki">
+    <ul>
+        <li id="op"><a href="TCGMelon.html">Home</a></li>
+        <li id="op"><a href="BuildADecklist.html">Build a Decklist</a></li>
+        <li id="op"><a href="Decks.html">Decks</a></li>
+        <li id="op"class="current"><a href="Community.html">Community</a></li>
+        <li id="op"><a href="Awards.html">Awards</a></li>
+        <li id="op"><a href="ContactUs.html">Contact us</a></li>
+    </ul>
+  </div>
 
-  	<ul class="loki">    
-    	<div class="gn">
-    		<li><h3>-LeaderBoard-</h3></li>
-      		<li>1. *kev1217</li>
-      		<li>2. Turtlegunstone</li>
-      		<li>3. FlyinHawaiian</li>
-      		<li>4. Turtlegunrok</li>
-    
-    		<ul id="gistra"></ul>
-    	</div>
+    <ul class="loki">    
+      <div class="gn">
+        <li><h3>-LeaderBoard-</h3></li>
+          <li>1. *kev1217</li>
+          <li>2. Turtlegunstone</li>
+          <li>3. FlyinHawaiian</li>
+          <li>4. Turtlegunrok</li>
+      </div>
+        <li> <div class="blueberry">
+  <ul class="slides">
+    <li><img src="https://s-media-cache-ak0.pinimg.com/originals/a1/8e/65/a18e65edae3c6cb03d9b60e1e1f32cf2.jpg" /></li>
+    <li><img src="https://s-media-cache-ak0.pinimg.com/originals/a1/8e/65/a18e65edae3c6cb03d9b60e1e1f32cf2.jpg" /></li>
+    <li><img src="https://s-media-cache-ak0.pinimg.com/originals/a1/8e/65/a18e65edae3c6cb03d9b60e1e1f32cf2.jpg" /></li>
+    <li><img src="https://s-media-cache-ak0.pinimg.com/originals/a1/8e/65/a18e65edae3c6cb03d9b60e1e1f32cf2.jpg" /></li>
+  </ul>
 
-    	<div class="mover">
-    		<div class="gn">
-    			<li><h3 id="gunu">Guarantee of the day</h3></li>
-				<li><button class="myButton">Home of gluten free decklists</button></li>
-  			</div>
-    	</div>
+  <ul class="pager">
+    <li><a href="#"><span></span></a></li>
+    <li><a href="#"><span></span></a></li>
+    <li><a href="#"><span></span></a></li>
+    <li><a href="#"><span></span></a></li>
+  </ul>
+</li>
+
+</div>
+
+      <div class="mover">
+        <div class="gn">
+          <li><h3 id="gunu">Guarantee of the day</h3></li>
+        <li><button class="myButton">Home of gluten free decklists</button></li>
+        </div>
+      </div>
     </ul>
  
-  	<h2 id="gms">Featured decks</h2>
-  	<div class="lol">
-    	<div class="poper">
-       		<ul>
-  				<ul>   
-    				<div class="item">      
-   						<li><a href=""><img id="ju" src="https://image.ibb.co/nN388v/mega_ray.png"></a></li>
-          				<li><a href=""><img id="ju" src="https://image.ibb.co/dsrd8v/apros2.png "></a></li>
-       					<li><a href=""><img id="ju" src="https://image.ibb.co/mMp4gF/soutland.png"></a></li>
-       					<li><a href=""><img id="ju" src="https://image.ibb.co/eWPFov/whaelord.png"></a></li>
-    				</div>
-  				</ul>
+    <h2 id="gms">Featured decks</h2>
+    <div class="lol">
+      <div class="poper">
+          <ul>
+          <ul>   
+            <div class="item">      
+              <li><a href=""><img id="ju" src="https://image.ibb.co/nN388v/mega_ray.png"></a></li>
+                  <li><a href=""><img id="ju" src="https://image.ibb.co/dsrd8v/apros2.png "></a></li>
+                <li><a href=""><img id="ju" src="https://image.ibb.co/mMp4gF/soutland.png"></a></li>
+                <li><a href=""><img id="ju" src="https://image.ibb.co/eWPFov/whaelord.png"></a></li>
+            </div>
+          </ul>
       
-    			<ul>
-    				<div class="item">
-      					<li><a href=""><img id="ju" src="http://vignette4.wikia.nocookie.net/yugioh/images/9/9f/RedEyesDarknessMetalDragon-TF04-JP-VG.jpg/revision/latest/scale-to-width-down/275?cb=20121004223815"></a></li>
-         				<li><a href=""><img id="ju" src="http://images.wikia.com/yugioh/images/f/fd/IslandTurtle-TF04-JP-VG.jpg"></a></li>
-       					<li><a href=""><img id="ju" src="http://uploads4.yugioh.com/card_images/4710/detail/Bull-Blader.jpg?1393862931"></a></li>
-       					<li><a href=""><img id="ju" src="http://uploads2.yugioh.com/card_images/4645/detail/AD-Changer.jpg?1392833236"></a></li>
-    				</div>      
-  				</ul>
-       		</ul>
+          <ul>
+            <div class="item">
+                <li><a href=""><img id="ju" src="http://vignette4.wikia.nocookie.net/yugioh/images/9/9f/RedEyesDarknessMetalDragon-TF04-JP-VG.jpg/revision/latest/scale-to-width-down/275?cb=20121004223815"></a></li>
+                <li><a href=""><img id="ju" src="http://images.wikia.com/yugioh/images/f/fd/IslandTurtle-TF04-JP-VG.jpg"></a></li>
+                <li><a href=""><img id="ju" src="http://uploads4.yugioh.com/card_images/4710/detail/Bull-Blader.jpg?1393862931"></a></li>
+                <li><a href=""><img id="ju" src="http://uploads2.yugioh.com/card_images/4645/detail/AD-Changer.jpg?1392833236"></a></li>
+            </div>      
+          </ul>
+          </ul>
        
-         	<ul>
-  				<ul>
-       				<div class="item">
-   						<li><a href=""><img id="ju" src="https://image.ibb.co/nrANka/tort.png"></a></li>
-          				<li><a href=""><img id="ju" src="https://image.ibb.co/cWDgdv/exb.png "></a></li>
-       					<li><a href=""><img id="ju" src="https://image.ibb.co/ckJ3rF/wb.png"></a></li>
-       					<li><a href=""><img id="ju" src="https://image.ibb.co/bQO8Qa/drag2.png"></a></li>
-    				</div>
- 				</ul>
+          <ul>
+          <ul>
+              <div class="item">
+              <li><a href=""><img id="ju" src="https://image.ibb.co/nrANka/tort.png"></a></li>
+                  <li><a href=""><img id="ju" src="https://image.ibb.co/cWDgdv/exb.png "></a></li>
+                <li><a href=""><img id="ju" src="https://image.ibb.co/ckJ3rF/wb.png"></a></li>
+                <li><a href=""><img id="ju" src="https://image.ibb.co/bQO8Qa/drag2.png"></a></li>
+            </div>
+        </ul>
       
-    			<ul>
-    				<div class="item">
-      	   				<li><a href=""><img id="ju" src="http://vignette4.wikia.nocookie.net/yugioh/images/9/9f/RedEyesDarknessMetalDragon-TF04-JP-VG.jpg/revision/latest/scale-to-width-down/275?cb=20121004223815"></a></li>
-         				<li><a href=""><img id="ju" src="http://images.wikia.com/yugioh/images/f/fd/IslandTurtle-TF04-JP-VG.jpg"></a></li>
-       					<li><a href=""><img id="ju" src="http://uploads4.yugioh.com/card_images/4710/detail/Bull-Blader.jpg?1393862931"></a></li>
-       					<li><a href=""><img id="ju" src="http://uploads2.yugioh.com/card_images/4645/detail/AD-Changer.jpg?1392833236"></a></li>
-    				</div>
+          <ul>
+            <div class="item">
+                  <li><a href=""><img id="ju" src="http://vignette4.wikia.nocookie.net/yugioh/images/9/9f/RedEyesDarknessMetalDragon-TF04-JP-VG.jpg/revision/latest/scale-to-width-down/275?cb=20121004223815"></a></li>
+                <li><a href=""><img id="ju" src="http://images.wikia.com/yugioh/images/f/fd/IslandTurtle-TF04-JP-VG.jpg"></a></li>
+                <li><a href=""><img id="ju" src="http://uploads4.yugioh.com/card_images/4710/detail/Bull-Blader.jpg?1393862931"></a></li>
+                <li><a href=""><img id="ju" src="http://uploads2.yugioh.com/card_images/4645/detail/AD-Changer.jpg?1392833236"></a></li>
+            </div>
       
-  				</ul>
-       		</ul>
-  		</div>
-	</div>
+          </ul>
+          </ul>
+      </div>
+  </div>
 
 </body>
 </html>
