@@ -165,6 +165,8 @@ a {padding: 1rem; display: block; text-align: center; text-decoration: none; bac
   padding-right:5px;
   border-width:6px;
   margin:20px;
+  font-color: darkslategrey;
+  color:darkslategrey;
   
 }
 .loki{
