@@ -1,0 +1,145 @@
+body{
+font-family: Righteous;
+padding:0px;
+color: white;
+background-image: url("https://wallpaperbrowse.com/media/images/Background-4.jpg") ;
+  min-height: 2500px;
+    background-attachment: fixed;
+
+}
+
+
+
+
+ul{
+	
+}
+#rat{
+	display:flex;
+	list-style: none;
+	text-align:right;
+}
+#mid_logo{
+padding-right: 50%
+text-align: center;
+
+
+}
+.jug{
+	list-style: none;
+	display:flex;
+}
+.mr-pup{
+	font-size: 150%;
+	margin-top: 70px;
+	
+
+}
+.smiten{
+	height:relative;
+	max-height:165px;
+}
+.loner{
+	background-color:green;
+}
+#color{
+	
+	color:white;
+}
+.brand {
+    position: absolute;
+    left: 47%;
+    top:4%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;   
+}
+.color1{
+	
+}
+.color2{
+background-color:darkseagreen;
+}
+#chris{
+	
+	width:100%;
+font-size: 150%;
+}
+ h1::first-letter {
+    font-size: 109%;
+    color: lime;
+   
+}
+.color3{
+	background-color:darkseagreen;
+}
+
+
+.slider{
+
+}
+.sliderItem{
+
+}
+.imgh{
+	border-style:solid;
+border-radius:15%;
+border-width:9px;
+border-color:black;
+margin:6px;
+margin-left:55px;
+background-color: white;
+
+	
+}
+.midrow{
+	width:100%;
+
+list-style:none;
+
+
+padding-top: 150px;
+background-color:darkslategrey;
+}
+.mid{
+list-style: none;
+display:flex;
+margin:0px;
+padding:0px;
+}
+.kol{
+width:auto;
+height:auto;
+}
+.pop{
+	
+	border-style:inset;
+	color:white;
+	border-color:white;
+	border-radius:14%;
+	border-width:5px;
+
+
+
+
+
+}
+.rif{
+	
+	padding:5px;
+	border-radius:14%;
+	color:white;
+}
+.tif{
+	border:none;
+	list-style: none;
+	
+}
+.navbar{
+	background-color:black;
+}
+.whole{
+	padding-top: 10px;
+}
+.loki{
+	background-color:seagreen;
+}
